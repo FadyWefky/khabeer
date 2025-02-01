@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Arabic Font and RTL Support */
+body {
+  font-family: 'Cairo', 'Helvetica', 'Arial', sans-serif;
+  direction: rtl;
+  background: linear-gradient(to bottom right, #ECFDF5, #A5F3FC, #E0F2FE);
+
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #04b91679;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #04b91679;
+}
