@@ -1,18 +1,26 @@
-"use client"
 import "./styles/globals.css";
-import { motion } from 'framer-motion'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
+
+
+export const metadata = {
+  title: 'الخبير المالية  ',
+  description: 'خدمات استشارية مالية متقدمة في الأسواق السعودية والأمريكية',
+  icon: '/logo.png'
+};
 
 export default function RootLayout({ children }) {
   return (
     <html lang="ar" dir="rtl">
+      <head>
+        <link rel="icon" href="../public/logo.png" sizes="any" />
+      </head>
       <body>
-        <div className="min-h-screen ">
           <Navbar />
+        <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-50">
           {children}
-          <Footer />
         </div>
+          <Footer />
       </body>
     </html>
   )

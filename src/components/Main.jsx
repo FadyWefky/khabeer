@@ -46,7 +46,7 @@ function Cards() {
 
 export default function Main() {
   return (
-    <div className="relative min-h-screen">
+    <div className="relative ">
       {/* Welcome section with absolute positioning */}
       <div className="relative z-10">
       <div className=" absolute top-0 h-full w-full bg-[url('/main.jpeg')] bg-cover  bg-no-repeat" />

@@ -80,7 +80,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-emerald-50 via-teal-50 to-cyan-50 py-16 px-4 sm:px-6 lg:px-8 rounded-lg relative overflow-hidden">
+    <div className="min-h-screen  py-16 px-4 sm:px-6 lg:px-8 rounded-lg relative overflow-hidden">
       {/* Previous decorative elements remain the same */}
       
       <motion.div

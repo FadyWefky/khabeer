@@ -16,7 +16,7 @@ export default function Navbar() {
       initial={{ opacity: 0, y: -50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
-      className="fixed top-0 left-0 right-0 bg-white  shadow-lg  px-6 text-right h-25 z-50"
+      className="fixed top-0 left-0 right-0 bg-white  shadow-lg  px-6 text-right h-25 z-50 mb-28"
     >
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex space-x-4 reverse">
