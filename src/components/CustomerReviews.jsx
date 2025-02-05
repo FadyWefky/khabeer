@@ -43,8 +43,8 @@ const CustomerReviews = () => {
     <div className=" py-16 px-4 md:px-8 my-20">
       <div className="max-w-2/3 mx-auto">
         <div className="text-center mb-16">
-          <h1 className="text-4xl font-bold text-black mb-4">أراء عملائنا</h1>
-          <div className="w-24 h-1 bg-emerald-500 mx-auto"></div>
+          <h1 className="text-4xl font-bold text-[#f35b1e] mb-4">أراء عملائنا</h1>
+          <div className="w-24 h-1 bg-[#8aa941] mx-auto"></div>
         </div>
 
         <div className="relative w-full">

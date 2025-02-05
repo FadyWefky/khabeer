@@ -4,10 +4,10 @@ import { motion } from 'framer-motion';
 
 const Footer = () => {
   const statistics = [
-    { number: '+999', label: 'التوصيات المستلمة' },
+    { number: '+8', label: 'التوصيات اليومية' },
     { number: '+190', label: 'عدد الفريق' },
-    { number: '+1700', label: 'عدد العملاء' },
-    { number: '+10', label: 'سنوات من الخبرة' }
+    { number: '+14620', label: 'عدد العملاء' },
+    { number: '+8', label: 'سنوات من الخبرة' }
   ];
 
   const workingHours = [
@@ -22,9 +22,9 @@ const Footer = () => {
 
   const pages = [
     { title: 'الصفحة الرئيسية', url: '#' },
-    { title: 'خدمات', url: '#' },
-    { title: 'اتصل', url: '#' },
-    { title: 'معلومات عنا', url: '#' }
+    { title: 'خدماتنا', url: '#ourServices' },
+    { title: 'اتصل', url: 'https://wa.me/966546656351' },
+    { title: 'معلومات عنا', url: '/about' }
   ];
 
   const containerVariants = {
@@ -45,7 +45,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-teal-200 rounded-t-xl py-16 px-4 overflow-hidden relative">
+    <footer className="bg-[#d7e9a3] rounded-t-xl py-16 px-4 overflow-hidden relative">
       {/* Stats Section */}
       <motion.div 
         variants={containerVariants}

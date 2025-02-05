@@ -22,8 +22,11 @@ const WelcomeHero = () => {
           الخبير لتوصيات الأسهم 
         </h1>
         
-        <button 
-          className="bg-[#FFA500] hover:bg-red-700 text-white px-8 py-3 rounded-lg 
+        <button onClick={(e) => {
+      e.preventDefault();
+      window.location.href='https://wa.me/966546656351';
+      }}
+          className="bg-[#f35b1e] hover:bg-[#f8532a] text-white px-8 py-3 rounded-lg 
                      text-xl font-bold transition-all duration-300 transform hover:scale-105
                      shadow-lg hover:shadow-xl animate-bounce"
         >

@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const Service2 = () => {
   return (
-     <div className=' rounded-lg  p-8 max-w-6xl mx-auto flex items-center my-40'>
+     <div className=' rounded-lg pt-40 p-8 max-w-6xl mx-auto flex items-center '>
     
         <motion.div
          initial={{ opacity: 0, x: 50 }}
