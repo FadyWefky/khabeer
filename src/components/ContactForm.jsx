@@ -3,21 +3,36 @@ import { motion } from 'framer-motion';
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
-    name: '', email: '', phone: '', comment: '', market: '', stocks: ''
+    name: '',
+    email: '',
+    phone: '',
+    market: '',
+    stocks: '',
+    comment: ''
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
+
     try {
-      const response = await fetch('YOUR_API_ENDPOINT', {
+      const response = await fetch('/api/submit', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData)
       });
-      if (!response.ok) throw new Error('Network response was not ok');
-      setFormData({ name: '', email: '', phone: '', comment: '', market: '', stocks: '' });
+
+      if (!response.ok) throw new Error('Submission failed');
+
+      setFormData({
+        name: '',
+        email: '',
+        phone: '',
+        market: '',
+        stocks: '',
+        comment: ''
+      });
       alert('تم إرسال النموذج بنجاح!');
     } catch (error) {
       console.error('Error:', error);
