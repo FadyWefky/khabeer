@@ -108,7 +108,6 @@ const ContactForm = () => {
                 type="email"
                 name="email"
                 id="email"
-                required
                 dir="rtl"
                 value={formData.email}
                 onChange={handleChange}
@@ -141,7 +140,7 @@ const ContactForm = () => {
               <motion.select
                 name="market"
                 id="market"
-                required
+
                 dir="rtl"
                 value={formData.market}
                 onChange={handleChange}
@@ -163,7 +162,7 @@ const ContactForm = () => {
               type="text"
               name="stocks"
               id="stocks"
-              required
+
               dir="rtl"
               value={formData.stocks}
               onChange={handleChange}
@@ -180,7 +179,7 @@ const ContactForm = () => {
               name="comment"
               id="comment"
               rows="3"
-              required
+
               dir="rtl"
               value={formData.comment}
               onChange={handleChange}
