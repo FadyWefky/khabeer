@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="ar" dir="rtl">
       <head>
-        <link rel="icon" href="../public/logo.png" sizes="any" />
+        <link rel="icon" href="/logo.png" type="image/png" />
       </head>
       <body>
           <Navbar />

@@ -12,7 +12,7 @@ export default function Home() {
       <Head>
         <title>مشروع الخبير</title>
         <meta name="description" content="صفحة رئيسية لمشروع الخبير" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/logo.png" />
       </Head>
 
       <Navbar />
